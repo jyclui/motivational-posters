@@ -21,7 +21,7 @@ $(document).on('input', '#caption-text', function() {
 });
 
 $(document).on('change', '#caption-left', function() {
-    $("caption").css("left", $(this).val() + 'px');
+    $("#caption").css("left", $(this).val() + 'px');
 });
 
 $(document).on('change', '#caption-top', function() {
